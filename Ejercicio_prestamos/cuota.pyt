@@ -69,3 +69,8 @@ class Cuota:
 if __name__ == "__main__":
     cuota1 = Cuota(320000,["Enero","Febrero","Marzo","Abril","Mayo","Junio"],True)
     print(cuota1)
+    
+    print(cuota1.get_monto_cuota)
+
+    cuota1.set_monto_cuota = "400000"
+    print(cuota1)
