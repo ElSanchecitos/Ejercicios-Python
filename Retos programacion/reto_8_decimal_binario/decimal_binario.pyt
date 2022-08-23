@@ -17,5 +17,6 @@ def decimal_binario(numero: int):
     for i in range(len(concat_resi)-1,-1,-1):
         binario += concat_resi[i]
     return binario
+
 print(decimal_binario(28))
 #print(int(725/2))

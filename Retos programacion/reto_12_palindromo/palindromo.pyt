@@ -8,3 +8,13 @@
  * Ejemplo: Ana lleva al oso la avellana.
 */
 """
+
+def palindromo(string: str):
+    return string[0::].lower() == string[::-1].lower()
+
+print(palindromo("ANA"))
+
+str1 = "lucia"
+# print(str1[0:])
+# print(str1[::-1])
+# print(str1[::-1] == str1[0::])

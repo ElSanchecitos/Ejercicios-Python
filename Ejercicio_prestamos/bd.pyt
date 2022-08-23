@@ -59,4 +59,9 @@ respuesta_cuerpo = respuesta.read()
 print(respuesta_cuerpo)
 
 json_decodificado = json.loads(respuesta_cuerpo.decode("utf-8"))
-print(json_decodificado)
+#print(json_decodificado)
+
+for clave,valor  in json_decodificado.items():
+    print(f"Valor: {valor}")
+
+print(json_decodificado["personas"][0]["nombre"])

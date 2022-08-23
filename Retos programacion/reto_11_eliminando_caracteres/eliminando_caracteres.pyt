@@ -21,15 +21,15 @@ def str_letters_difference(str1, str2):
             formato = str2[x]+","
             out2 += formato
 
-    return f"Las palabras no repetidas son: {out1}{out2}"
+    return f"salida 1: {out1} - salida 2: {out2}"
 
 
 print(str_letters_difference("hola","hacia"))
 
 
-str1 = "Hola"
-str2 = "Hacia"
+# str1 = "Hola"
+# str2 = "Hacia"
 
-for st in range(len(str1)):
-    if str1[st] not in str2:
-        print(str1[st])
+# for st in range(len(str1)):
+#     if str1[st] not in str2:
+#         print(str1[st])

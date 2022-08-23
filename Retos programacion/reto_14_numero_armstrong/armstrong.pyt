@@ -6,3 +6,22 @@
  * al respecto.
 */
 """
+
+
+def arsmtrong(numero: int):
+    str_num = str(numero)
+    largo = len(str_num)
+    suma = 0
+    for i in range(largo):
+        suma += int(str_num[i])**largo
+        
+    if suma == numero:
+        return True
+    else:
+        return False
+
+print(arsmtrong(153))
+print(arsmtrong(407))
+print(arsmtrong(371))
+print(arsmtrong(54748))
+print(arsmtrong(100))
