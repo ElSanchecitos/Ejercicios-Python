@@ -16,3 +16,6 @@
  * Para ello tiene que realizar la opción correcta en cada tramo de la pista.
 */
 """
+
+def carrera_obstaculos(array: list, string :str):
+    pass
