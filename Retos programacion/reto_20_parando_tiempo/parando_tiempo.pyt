@@ -9,3 +9,11 @@
  *   Se podría ejecutar varias veces al mismo tiempo.
 */
 """
+
+import time
+
+def parando_tiempo(a: int, b: int, tiempo: int):
+    time.sleep(tiempo)
+    return a + b
+
+print(parando_tiempo(1,4,3))
