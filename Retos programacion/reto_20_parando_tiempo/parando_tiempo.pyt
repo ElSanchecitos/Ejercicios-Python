@@ -12,8 +12,8 @@
 
 import time
 
-def parando_tiempo(a: int, b: int, tiempo: int):
-    time.sleep(tiempo)
+def parando_tiempo(a: int, b: int, seconds: int):
+    time.sleep(seconds)
     return a + b
 
 print(parando_tiempo(1,4,3))

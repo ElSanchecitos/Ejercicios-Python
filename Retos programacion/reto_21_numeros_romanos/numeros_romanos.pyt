@@ -12,4 +12,4 @@ M = 1000
 
 
 def num_romano(numero: int):
-    
+    pass
