@@ -117,8 +117,7 @@ def daysbetween(date1: str, date2: str):
         
         if new_date1[1] == new_date2[1]:
             days = difference_days_month_equal(day1=new_date1[0], day2=new_date2[0])
-            years = diference_year(year_1=new_date1[2], year_2=new_date2[2])
-            diference = days + years
+            diference = days
 
         elif new_date1[1] != new_date2[1]:
             days = difference_days_month_diferent(day1=new_date1[0], day2=new_date2[0], month1=new_date1[1], month2=new_date2[1])
@@ -133,6 +132,16 @@ def daysbetween(date1: str, date2: str):
 
 fecha1 = "17/05/2020"
 fecha2 = "15/06/2020"
-print(daysbetween(fecha1, fecha2))
 
-
+print(daysbetween("01/01/2014", "05/06/2016"))
+print(daysbetween("05/06/2016", "01/01/2014"))
+print(daysbetween("17/05/2020", "17/06/2020"))
+print(daysbetween("17/06/2020", "17/05/2020"))
+print(daysbetween("31/12/2020", "01/01/2021"))
+print(daysbetween("31/05/2020", "01/06/2020"))
+print(daysbetween("20/12/2020", "10/01/2021"))
+print(daysbetween("20/12/2020", "10/01/2022"))
+print(daysbetween("20/11/2020", "10/01/2022"))
+print(daysbetween("20/12/2020", "10/02/2021"))
+print(daysbetween("10/02/2021", "20/12/2020"))
+#Corregir este reto de programación
